@@ -1,6 +1,9 @@
-**Date**<br>
-**Course Code & Course Name**<br>
-**Student's First Name & Last Name**<br>
+**November 2, 2025**<br>
+**MPAD2003A Introductory Data Storytelling**<br>
+**Mariia Bondar**<br>
+**Taha Saffih**<br>
+**Yusra Ghani**<br>
+**Beracah Okere**<br>
 **Presented to Jean-Sébastien Marier**<br>
 
 # Exploratory Data Analysis (EDA) & Pitch
