@@ -27,7 +27,15 @@ And to create an unordered list, we simply put a star (`*`) before each item.
 
 ## 1. Introduction
 
-Insert text here.
+In this document, we are going to complete our Exploratory Data Analysis and Pitch assignment based on the 2021 Long Form Census - Ward Data dataset collected by Statistics Canada and published on the City of Ottawa’s open data portal on November 28, 2023. We will be analyzing demographic data of 25% of households in Ottawa.  
+
+The 2021 long-form Census questionnaire was distributed to 25% of all households in Ottawa. The data was collected by Statistics Canada. The dataset covers all 24 electoral districts (wards) within Ottawa and the City of Ottawa. It includes various categories such as marital status, religion, place of birth, among others, along with their totals. The dataset contains 2,602 rows. It uses discrete variables (Statistics: Power from Data!, Section 4.2). 
+
+[*The original dataset on Open Ottawa*](https://open.ottawa.ca/datasets/ottawa::2021-long-form-census-ward-data/explore). 
+
+[*CSV version from the GitHub portal*](https://raw.githubusercontent.com/jsmarier/files-for-course-assignments/refs/heads/main/2021_Long_Form_Census_-_Ward_Data.csv). 
+
+The main sections of this assignment are importing, analyzing, and cleaning data; conducting an exploratory data analysis; finding a potential story; and researching other sources to tell it better. 
 
 ## 2. Getting Data
 
