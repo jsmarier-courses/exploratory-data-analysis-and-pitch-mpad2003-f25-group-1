@@ -39,23 +39,20 @@ The main sections of this assignment are importing, analyzing, and cleaning data
 
 ## 2. Getting Data
 
-Use two hashtag symbols (`##`) to create a level 2 heading like this one.
+To import data into Google Sheets, we copied the URL of the dataset. Then, we selected an empty cell at the beginning of the spreadsheet (e.g., cell A1) and entered the formula =IMPORTDATA("URL"). We replaced "URL" with the copied URL, including the quotation marks. Finally, we pressed Enter to import the dataset.   
 
-To include a screen capture, use the sample code below. Your images should be saved in the same folder as your `.md` file.
-
-![](import-screen-capture.png)<br>
+![](importdata_screenshot.png)<br>
 *Figure 1: The "Import file" prompt on Google Sheets.*
 
-**Here are examples of functions and lines of code put in grey boxes:**
+[*Public link to our Google Sheets*](https://open.ottawa.ca/datasets/ottawa::2021-long-form-census-ward-data/explore). 
+ 
 
-1. If you name a function, put it between "angled" quotation marks like this: `IMPORTHTML`.
-1. If you want to include the entire line of code, do the same thing, albeit with your entire code: `=IMPORTHTML("https://en.wikipedia.org/wiki/China"; "table", 5)`.
-1. Alternatively, you can put your code in an independent box using the template below:
+General observations regarding the dataset: 
 
-``` r
-=IMPORTHTML("https://en.wikipedia.org/wiki/China"; "table", 5)
-```
-This also shows how to create an ordered list. Simply put `1.` before each item.
+* 26 columns 
+* 2,602 rows 
+* Discrete variables 
+* Demographic characteristics 
 
 ## 3. Understanding Data
 
