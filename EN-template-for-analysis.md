@@ -44,7 +44,7 @@ To import data into Google Sheets, we copied the URL of the dataset. Then, we se
 ![](importdata_screenshot.png)<br>
 *Figure 1: The "Import file" prompt on Google Sheets.*
 
-[*Public link to our Google Sheets*](https://open.ottawa.ca/datasets/ottawa::2021-long-form-census-ward-data/explore). 
+[*Public link to our Google Sheets*](https://docs.google.com/spreadsheets/d/1lZDdngeOup1NO11wTbPw5DKi6v85-Oq4eJjfzvdI-5g/edit?usp=sharing). 
  
 
 General observations regarding the dataset: 
