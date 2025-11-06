@@ -8,7 +8,6 @@
 
 # Exploratory Data Analysis (EDA) & Pitch
 
-Use one hashtag symbol (`#`) to create a level 1 heading like this one.
 
 ## Foreword
 
@@ -21,9 +20,6 @@ I have been assigning different versions of this project to my digital journalis
 * [GitHub's *Basic writing and formatting syntax* page](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 * [The template repository for this assignment in case you delete something by mistake](https://github.com/jsmarier/jou4100_jou4500_mpad2003_project2_template)
 
-Did you notice how to create a hyperlink? In Markdown, we put the clickable text between square brackets and the actual URL between parentheses.
-
-And to create an unordered list, we simply put a star (`*`) before each item.
 
 ## 1. Introduction
 
@@ -53,6 +49,34 @@ General observations regarding the dataset:
 * 2,602 rows 
 * Discrete variables 
 * Demographic characteristics 
+
+General observations regarding the dataset: 
+
+26 columns (including characteristics)  
+
+2,602 rows  
+
+Discrete variables 
+
+Demographic characteristics 
+
+The dataset appears to be somewhat unclean. It includes the City of Ottawa, represented by the mayor, as well as 24 wards represented by their respective councillors. This suggests that the values for the City of Ottawa are regarded as the sum of its individual wards' values. We have created a separate column using the formula = SUM(C3:Z3) to calculate the total for the wards' values in the "Total - Age Groups of the Population - 25% Sample Data." According to this calculation, the City of Ottawa should have 1,000,940 people in that category ; however, our sum shows 1,000,930, leading to a discrepancy of 10 people. This difference appears in several of the initial columns, ranging from 5 to 15. Clarification is needed as to why there is a discrepancy, considering that the City of Ottawa is composed of 24 wards. 
+
+  
+
+Column B (City of Ottawa) displays either total or average figures derived from the 24 wards across all other columns. These are discrete data points representing the number of people in specific categories, such as the First Nations population within the City of Ottawa. 
+
+  
+
+Column C (Ward 1) indicates the number or average number of individuals in each category for residents of Orléans East-Cumberland – Ward 1. It is a discrete data.  
+
+  
+
+Similarly, Column Z (Ward 24) shows the number or average number of individuals in each category for residents of Barrhaven East – Ward 24. It is a discrete data.  
+
+ 
+
+
 
 ## 3. Understanding Data
 
