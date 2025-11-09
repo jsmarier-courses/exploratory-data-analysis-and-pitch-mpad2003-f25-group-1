@@ -1,4 +1,4 @@
-**November 2, 2025**<br>
+**November 9, 2025**<br>
 **MPAD2003A Introductory Data Storytelling**<br>
 **Mariia Bondar**<br>
 **Taha Saffih**<br>
@@ -35,7 +35,7 @@ The main sections of this assignment are importing, analyzing, and cleaning data
 
 ## 2. Getting Data
 
-To import data into Google Sheets, we copied the URL of the dataset. Then, we selected an empty cell at the beginning of the spreadsheet (e.g., cell A1) and entered the formula =IMPORTDATA("URL"). We replaced "URL" with the copied URL, including the quotation marks. Finally, we pressed Enter to import the dataset.   
+To import data into Google Sheets, we copied the URL of the dataset. Then, we selected an empty cell at the beginning of the spreadsheet (e.g., cell A1) and entered the formula  ` =IMPORTDATA("URL") `. We replaced "URL" with the copied URL, including the quotation marks. Finally, we pressed Enter to import the dataset.   
 
 ![](importdata_screenshot.png)<br>
 *Figure 1: The "Import file" prompt on Google Sheets.*
@@ -60,7 +60,7 @@ Discrete variables
 
 Demographic characteristics 
 
-The dataset appears to be somewhat unclean. It includes the City of Ottawa, represented by the mayor, as well as 24 wards represented by their respective councillors. This suggests that the values for the City of Ottawa are regarded as the sum of its individual wards' values. We have created a separate column using the formula = SUM(C3:Z3) to calculate the total for the wards' values in the "Total - Age Groups of the Population - 25% Sample Data." According to this calculation, the City of Ottawa should have 1,000,940 people in that category ; however, our sum shows 1,000,930, leading to a discrepancy of 10 people. This difference appears in several of the initial columns, ranging from 5 to 15. Clarification is needed as to why there is a discrepancy, considering that the City of Ottawa is composed of 24 wards. 
+The dataset appears to be somewhat unclean. It includes the City of Ottawa, represented by the mayor, as well as 24 wards represented by their respective councillors. This suggests that the values for the City of Ottawa are regarded as the sum of its individual wards' values. We have created a separate column using the formula ` = SUM(C3:Z3) ` to calculate the total for the wards' values in the "Total - Age Groups of the Population - 25% Sample Data." According to this calculation, the City of Ottawa should have 1,000,940 people in that category ; however, our sum shows 1,000,930, leading to a discrepancy of 10 people. This difference appears in several of the initial columns, ranging from 5 to 15. Clarification is needed as to why there is a discrepancy, considering that the City of Ottawa is composed of 24 wards. 
 
   
 
@@ -125,3 +125,4 @@ Include a list of your references here. Please follow [APA guidelines for refere
 **Here's an example:**
 
 Bounegru, L., & Gray, J. (Eds.). (2021). *The Data Journalism Handbook 2: Towards A Critical Data Practice*. Amsterdam University Press. [https://ocul-crl.primo.exlibrisgroup.com/permalink/01OCUL_CRL/hgdufh/alma991022890087305153](https://ocul-crl.primo.exlibrisgroup.com/permalink/01OCUL_CRL/hgdufh/alma991022890087305153)
+
