@@ -103,7 +103,15 @@ Insert text here.
 
 ## 5. Conclusion
 
-Insert text here.
+We believe cleaning the data and developing the story was the hardest part of this assignment for us. It was confusing since all the different characteristics were in rows, so analyzing them in a pivot table would require us to create new spreadsheets with just one row. We also struggled because our idea was too broad (how the household market changed due to COVID-19), and it would require a better financial understanding than we currently have. 
+
+  
+
+The best parts were using the knowledge we gained—such as inserting the dataset and searching for specific items within it. It was also fun to identify data types. Tasks that required conceptual understanding worked well, but the hands-on experiences lacked practice or the necessary knowledge. 
+
+  
+
+We should have come up with an easier story and reviewed it together during the initial stage of the assignment. People who are more confident in their technical skills and data operations should have handled those parts, while those who are less confident should have taken on the writing portions. We had to start the project as soon as it was shared with us to allow more time for changes and necessary communication. 
 
 ## 6. References
 
