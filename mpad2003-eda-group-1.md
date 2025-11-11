@@ -71,7 +71,7 @@ The dataset appears to be somewhat unclean. It includes the City of Ottawa, repr
 
 Use three hashtag symbols (`###`) to create a level 3 heading like this one. Please follow this template when it comes to level 1 and level 2 headings. However, you can use level 3 headings as you see fit.
 
-Insert text here.
+
 
 Support your claims by citing relevant sources. Please follow [APA guidelines for in-text citations](https://apastyle.apa.org/style-grammar-guidelines/citations).
 
@@ -81,26 +81,47 @@ As Cairo (2016) argues, a data visualization should be truthful...
 
 ### 3.2. Cleaning Data
 
-Insert text here.
+
+Using the filter tool, several rows that only had zeroes as part of each data entry were filtered out.   
+
+Removing rows that didn’t directly relate to our story.  
+
+Using find and replace tool to mass delete unneeded stuff. By finding entire categories and replacing them with blank spaces, we effectively mass deleted entire rows at once 
+
+Rows were frozen so we could analyze the full length of them, ensuring an easier way to view the rows without having to zoom in/out of the spreadsheets 
+
+The top columns which displayed the titles were also frozen to ensure an easier viewing experience, so we don't get lost when scrolling down the spreadsheet.  
+
+![](Spreadsheet-edited.png)
+
+
+
+This is the screenshot of the edited, cleaned up datasheet whereas the original, unedited version had over 2,600 rows.  
+
+The only time(s) functions were used was to sus out any numerical discrepancies like using the “SUM” function to ensure the accuracy of the data.  Since there were some cells that had the sums of the rows already, we used that function and found some numerical inaccuracies which we dealt with accordingly.  
+
 
 ### 3.3. Exploratory Data Analysis (EDA)
 
-Insert text here.
+
 
 **This section should include a screen capture of your pivot table, like so:**
 
 ![](pivot-table-screen-capture.png)<br>
-*Figure 2: This pivot table shows...*
+Figure 2: This pivot table shows the pivot table shrunk down into two values, that being the positions of the players that scored and the amount of scores from said position followed by the grand total at the bottom. This is done to 
+further simplify the data in such a way that there is very little room left for ambiguity.  
 
 **This section should also include a screen capture of your exploratory chart, like so:**
 
 ![](chart-screen-capture.png)<br>
-*Figure 3: This exploratory chart shows...*
+Figure 3: This exploratory chart shows more broader statistics of each player. By using clustered bar graphs, it makes it easier to make out things that are easier to imagine. Things like height for example being the highest value for
+each person since it is in centimeters. Therefore, it's not being obfuscated by the other values closer to the bottom. 
 
 ## 4. Potential Story
 
-Insert text here.
-
+One potential story emerging from this dataset hones in on the disparity between homeowners and renters across Ottawa's wards. This illustrates a contrast that illuminates much more than simple differences in housing status. By analyzing
+the ownership and rental rates, we can identify several patterns of income inequality, generational wealth gaps, and the braoder impact of housing affordability in a post-pandemic economy. Like how wards with higher amounts of homeowners
+my correlate with older populations, higher household incomes, and greater economic stability, whereas wards with a lot more renters may reflect younger residents, more cultural diversity, less cash flow, and more economic instability. By delving into how the distributions vary geographically across Ottawa, we can deduce how access to stable housing influences everything from political engagement to mental well-being. In essence, this data story could help visualize the "two Ottawas". One of ownership and one of tenancy, overlap or diverge, and what that means for the city’s future growth and equity.
 ## 5. Conclusion
 
 We believe cleaning the data and developing the story was the hardest part of this assignment for us. It was confusing since all the different characteristics were in rows, so analyzing them in a pivot table would require us to create new spreadsheets with just one row. We also struggled because our idea was too broad (how the household market changed due to COVID-19), and it would require a better financial understanding than we currently have. 
