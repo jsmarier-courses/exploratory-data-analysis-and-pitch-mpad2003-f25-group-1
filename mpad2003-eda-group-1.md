@@ -67,13 +67,45 @@ The dataset appears to be somewhat unclean. It includes the City of Ottawa, repr
 
 ## 3. Understanding Data
 
+
 ### 3.1. VIMO Analysis
 
-Use three hashtag symbols (`###`) to create a level 3 heading like this one. Please follow this template when it comes to level 1 and level 2 headings. However, you can use level 3 headings as you see fit.
+#### Dataset Quality 
 
+##### Internal Consistency 
 
+The Ottawa ward-level dataset demonstrates strong internal consistency. All 19 ward income values fall within a realistic range for Canadian urban centres ($42,920 – $67,400), with no blank fields, non-numeric entries, or logically impossible values (e.g., negative income). Numerical columns are standardized in 2020 CAD, ensuring comparability across wards (Statistics Canada, 2021). 
 
-Support your claims by citing relevant sources. Please follow [APA guidelines for in-text citations](https://apastyle.apa.org/style-grammar-guidelines/citations).
+##### Invalid Values 
+
+No invalid values were detected in the dataset. Income entries maintain consistent formatting and logical plausibility, indicating careful data cleaning and preparation. 
+
+##### Missing Values 
+
+There are no missing or blank income values across the 19 wards. The absence of missing data reduces bias and increases reliability, supporting accurate ward-level analysis (Creswell & Creswell, 2018). 
+
+##### Dataset Overview 
+
+This dataset is a cleaned subset of Ottawa’s 2021 long-form census data. It contains ward-level information on average after-tax income, demographic characteristics, and housing indicators. The dataset has been reduced from a larger file to focus on income and housing affordability metrics, streamlining analysis while maintaining key insights. 
+
+##### Interpretation of Data Origins 
+
+The data originates from Statistics Canada’s 2021 long-form census, which sampled 25% of households using stratified random sampling. This design improves representativeness but introduces some sampling variance and potential non-response bias at the ward level (Statistics Canada, 2021). 
+
+##### Reliability Metrics 
+
+Global Non-Response Rates (GNR) for each ward are below the 10% threshold (e.g., Ward 8 – College: 3.4%), suggesting reliable responses. However, aggregation to ward-level averages may slightly distort figures due to rounding or suppression (per StatsCan privacy protocols). Precision varies: wards with smaller populations exhibit wider margins of error compared to denser wards like Somerset or Kitchissippi. 
+
+##### Outliers 
+
+Certain wards show exceptionally high dwelling values or income levels. Contextual review confirms these are realistic: wealthier wards (e.g., Kanata North, Rideau-Rockcliffe, Somerset) naturally exhibit higher incomes and property values. Outliers were retained as they represent true socioeconomic variation rather than errors. 
+
+##### Limitations 
+
+Ottawa’s diversity, encompassing rural, suburban, and urban areas, creates complex local realities. City-wide averages can obscure disparities: neighborhoods such as Vanier, Bayshore, Ledbury-Heron Gate, and Caldwell differ substantially from Westboro, Rockcliffe Park, or Kanata Lakes. Averages may understate pockets of poverty and overstate wellbeing in marginalized areas (Cairo, 2016). 
+
+![](image_2.png)<br>
+Figure 2
 
 **For example:**
 
@@ -104,24 +136,20 @@ The only time(s) functions were used was to sus out any numerical discrepancies 
 ### 3.3. Exploratory Data Analysis (EDA)
 
 
+After cleaning the data, we then created a pivot table of the data. This pivot table showcases the total number of people in each ward that earned a total amount of employment income within several ranges. 
 
-**This section should include a screen capture of your pivot table, like so:**
+We created a pivot table which includes a lot of the data from our graph. After doing so, we then made a bar chart comparing the average amount of income (after-tax) in 2019 and 2020, showcasing the way in which the pandemic may have affected different parts of the Ottawa community. This was done by filtering the pivot table so that the rows only include 2019 and 2020 income after tax values.  
 
-![](pivot-table-screen-capture.png)<br>
-Figure 2: This pivot table shows the pivot table shrunk down into two values, that being the positions of the players that scored and the amount of scores from said position followed by the grand total at the bottom. This is done to 
-further simplify the data in such a way that there is very little room left for ambiguity.  
+![](image 3.png)<br>
+Figure 3: An image showcasing a comparison between the total number of income
 
-**This section should also include a screen capture of your exploratory chart, like so:**
-
-![](chart-screen-capture.png)<br>
-Figure 3: This exploratory chart shows more broader statistics of each player. By using clustered bar graphs, it makes it easier to make out things that are easier to imagine. Things like height for example being the highest value for
-each person since it is in centimeters. Therefore, it's not being obfuscated by the other values closer to the bottom. 
 
 ## 4. Potential Story
 
 One potential story emerging from this dataset hones in on the disparity between homeowners and renters across Ottawa's wards. This illustrates a contrast that illuminates much more than simple differences in housing status. By analyzing
 the ownership and rental rates, we can identify several patterns of income inequality, generational wealth gaps, and the braoder impact of housing affordability in a post-pandemic economy. Like how wards with higher amounts of homeowners
 my correlate with older populations, higher household incomes, and greater economic stability, whereas wards with a lot more renters may reflect younger residents, more cultural diversity, less cash flow, and more economic instability. By delving into how the distributions vary geographically across Ottawa, we can deduce how access to stable housing influences everything from political engagement to mental well-being. In essence, this data story could help visualize the "two Ottawas". One of ownership and one of tenancy, overlap or diverge, and what that means for the city’s future growth and equity.
+
 ## 5. Conclusion
 
 We believe cleaning the data and developing the story was the hardest part of this assignment for us. It was confusing since all the different characteristics were in rows, so analyzing them in a pivot table would require us to create new spreadsheets with just one row. We also struggled because our idea was too broad (how the household market changed due to COVID-19), and it would require a better financial understanding than we currently have. 
